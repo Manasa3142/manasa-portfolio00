@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Manasa Portfolio</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            body {
+                background-color: #A1CCDC;
+                color: black;
+                font-family: 'Times New Roman';
+                margin: 0;
+                padding: 20px;
+                font-size: 25px;
+            }
+            .manasa-name {
+                position: fixed;
+                top: 10px;
+                left: 25px;
+                font-size: 40px;
+                color: white;
+                z-index: 1000; 
+                text-decoration: none; 
+            }
+            h1, h3, h4, p {
+                margin: 0;
+                line-height: 1.6;
+                color: white;
+            }
+            p {
+                right: 20px;
+                bottom: 15px;
+                text-align: left;
+                font-family: sans-serif;
+                font-size: 29px;
+                line-height: 1.7;
+            }
+            h1 {
+                font-size: 40px;
+                color: white;
+            }
+            .navbar {
+                display: flex;
+                justify-content: flex-end;
+                position: fixed;
+                top: 10px;
+                right: 10px;
+                gap: 20px;
+                z-index: 1000;
+                background-color: transparent;
+            }
+            .navbar a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.2rem;
+                padding: 5px;
+            }
+            .navbar a:hover {
+                color: darkgray;
+            }
+            .linkedin-icon {
+                color: black;
+                font-size: 1.5rem;
+                transition: color 0.3s ease;
+            }
+            .linkedin-icon:hover {
+                color: #0077B5;
+            }
+            .section {
+                padding: 20px;
+                margin: 40px auto;
+                max-width: 1200px;
+            }
+            .section h1 {
+                text-align: center;
+                font-size: 36px;
+            }
+            .section p, .section ul {
+                margin: 10px;
+            }
+            .section img {
+                max-width: 150px;
+            }
+            form {
+                flex-direction: column;
+            }
+
+            input, textarea {
+                margin: 10px;
+                padding: 12px;
+                font-size: 16px;
+                width: 80%;
+                border-radius: 15px;
+            }
+          img{
+            position:center;
+          }
+            input[type="submit"] {
+                width: auto;
+                background-color: gray;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: darkgray;
+            }
+
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .flex-item {
+                margin: 20px;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 10px;
+                width: 400px;
+            }
+            @media (max-width: 768px) {
+                .flex-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+          .resume-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+}
+.resume-button {
+    padding: 12px 25px;
+    background-color: #0077B5; 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.resume-button:hover {
+    background-color: #005a92; 
+}
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 40px 0;
+}
+.resume-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+ .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home-content img {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.home-content p {
+    width: 55%;
+    color: black;
+}
+
+ .certificates-container {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+            }
+
+ .certificates-container img {
+     height: 400px;
+     max-width: 100%;
+    object-fit: cover;
+     border-radius: 10px;
+ }
+             
+        </style>
+    </head>
+    <body>
+        <a class="manasa-name" href="#"><h1>MANASA</h1></a>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#certificates">Certificates</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile">
+                <i class="fab fa-linkedin linkedin-icon"></i>
+            </a>
+        </div>
+        <div id="home" class="section">
+            <div class="home-content">
+                <img src="https://res.cloudinary.com/dgoqptfy3/image/upload/v1726467191/e6l1iucaaq5gfwb3mjiu.jpg" alt="Manasa">
+                <p>
+                    Hello, I’m Kammari Manasa, an engineering student. I completed my Bachelor of Technology in SVR Engineering College from Nandyal. I’m constantly exploring new technologies and learning how to apply them in practical ways. I am particularly interested in becoming a software engineer or web developer in the near future. The field of technology excites me, and I am fascinated by the endless possibilities that coding and software development offer. I enjoy the intellectual growth that comes with each new project and challenge.
+                </p>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h1>Contact</h1>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h2>Contact Info</h2>
+                    <p>Phone No: <strong>+91 8341652991</strong></p>
+                    <p>Email: <strong>kmanasa335@gmail.com</strong></p>
+                    <p>Address: <strong>Viswanagar, Nandyal</strong></p>
+                </div>
+                <div class="flex-item">
+                    <h2>Contact Form</h2>
+                    <form action="submit_form.php">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="First Name" required>
+
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="Last Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <input type="submit" value="HIRE ME">
+                    </form>
+                </div>
+            </div>
+        </div>
+            <div class="resume-container">
+        <a href="new resume.pdf" download="new resume.pdf" class="resume-button">Download Resume</a>
+      </div>
+        <div>
+          <h3>RESUME</h3>
+          <div class="resume-container">
+            <img src="https://res.cloudinary.com/dgoqptfy3/image/upload/v1726755597/ifibnyrt5aae3qlbefnu.jpg">
+        </div>
+        <div id="education" class="section">
+            <h1>Education</h1>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h2>SVR Engineering College</h2>
+                    <p>Bachelor of Technology in Computer Science and Artificial Intelligence</p>
+                    <p>2022 - 2026</p>
+                    <p>Percentage: 81%</p>
+                </div>
+                <div class="flex-item">
+                    <h2>Nalanda Junior College</h2>
+                    <p>Percentage: 91%</p>
+                    <p>2020 - 2022</p>
+                </div>
+                <div class="flex-item">
+                    <h2>K.G.B.V School</h2>
+                    <p>Passed out: 2020</p>
+                    <p>Marks: 950</p>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <h1>Skills</h1>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h2>Web Technology</h2>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h2>Version Control</h2>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h2>Programming Languages</h2>
+                    <ul>
+                        <li><i class="fab fa-python"></i> Python</li>
+                    </ul>
+                </div>
+                <div class="flex-item">
+                    <h2>Skills & Hobbies</h2>
+                    <details>
+                        <summary>Skills</summary>
+                        <ul>
+                            <li>Communication Skills</li>
+                            <li>Team Collaboration</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Hobbies</summary>
+                        <ul>
+                            <li>Reading</li>
+                            <li>Music</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div id="certificates" class="section">
+            <h1>Certificates</h1>
+            <div class="certificates-container">
+                <img src="https://res.cloudinary.com/dgoqptfy3/image/upload/v1726467218/w9zpykbauu3cj3isu6st.png" alt="Certificate 1">
+                <img src="https://res.cloudinary.com/dgoqptfy3/image/upload/v1726467200/w4tfojnumtj7udefjcyp.jpg" alt="Certificate 2" height='600' width='600'>
+            </div>
+        </div>
+    </body>
+</html>
+
+
